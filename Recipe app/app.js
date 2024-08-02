@@ -5,10 +5,15 @@ const app = express();
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'onlinerecipeapp'
+    //host: 'localhost',
+    //user: 'root',
+    //password: '',
+    //database: 'onlinerecipeapp'
+    host: 'mysql-pzd.alwaysdata.net',
+    user: 'pzd',
+    password: 'pzd7774',
+    database: 'pzdrecipeapp_project'
+
 });
 connection.connect((err) => {
     if (err) {
