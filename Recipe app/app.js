@@ -9,9 +9,9 @@ const connection = mysql.createConnection({
     //user: 'root',
     //password: '',
     //database: 'onlinerecipeapp'
-    host: 'mysql-pzd.alwaysdata.net',
-    user: 'pzd',
-    password: 'pzd7774',
+    host: 'mysql-pzdrecipeapp.alwaysdata.net',
+    user: '371297',
+    password: 'Imthesmiler_7774_',
     database: 'pzdrecipeapp_project'
 
 });
